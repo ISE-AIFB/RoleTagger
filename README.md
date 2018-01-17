@@ -26,6 +26,7 @@ Before able to run the code, few steps should be done.
 2. Downloading Wikipeida dump file and running [wikiextractor](https://github.com/attardi/wikiextractor) by `-l` flag to preserving the links. After running extractor, move the files to the `wikipediafiles` folder in the project root directory.
 3. Download `article_categories_en.ttl` from dbpeida download portal. Create a folder named `category` in the project root directory and move the file there.
 4. Download `skos_categories_en.ttl` from dbpeida download portal and move it to the the `category` in the project root directory.
+5. Download `redirectPage` from [this link](https://www.dropbox.com/s/plfyiz2cz7jgrgb/redirectPage?dl=0) and move it to `requirements` folder in the project root directory
 
 ## How to run the code
 **Running inside Eclipse**
