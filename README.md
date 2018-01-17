@@ -33,7 +33,7 @@ Before able to run the code, few steps should be done.
 This project is based on [Gradle](https://gradle.org/). So it could be easily imported to Eclipse. For importing it the Eclipse should contain [Buildship Plugin](https://projects.eclipse.org/projects/tools.buildship).  After installing [Buildship Plugin](https://projects.eclipse.org/projects/tools.buildship), you can easily import the project into the Eclipse as a Gradle project.
 
 **Running in Terminal**
-For running the project, you only need to first build the project and then modify `config.properties` in `build/install/RoleTagger/bin` and finally run `build/install/RoleTagger/bin/RoleTagger.bat` or `build/install/RoleTagger/bin/RoleTagger.sh`.
+For running the project in terminal, first the project should be built. Run `./gradlew installDist`. Then you only need to  modify `config.properties` in `build/install/RoleTagger/bin` and finally run `build/install/RoleTagger/bin/RoleTagger.bat` or `build/install/RoleTagger/bin/RoleTagger.sh`.
 
 **Modifying Pipeline**
 To be able to en/dis able the components in the pipeline, the `PipeLine` class can be modified.
